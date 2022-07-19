@@ -1,0 +1,13 @@
+{
+  done: "Done",
+  new_form:
+  {
+    title: "New",
+    exit: "Exit"
+  },
+  only_en: "Non-interpretable",
+  plural_en: "year||||years",
+  days_ago: "day||||days",
+  multiline:"first line
+second line"
+}

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.1-beta1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\reusable\ArgsUtils.cs">
+        <Link>ArgsUtils.cs</Link>
+      </Compile>
+      <Compile Include="..\reusable\CodeGenerationUtils.cs">
+        <Link>CodeGenerationUtils.cs</Link>
+      </Compile>
+      <Compile Include="..\reusable\Polyglot.cs">
+        <Link>Polyglot.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>

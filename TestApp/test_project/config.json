@@ -1,0 +1,19 @@
+{
+  default_locale: "en",
+  defaults:
+  {
+    ru: "es",
+    es: "it",
+    zh: "de",
+    pt: "ru",
+    fr: "en",
+
+    az: "az",
+    en: "az",
+
+    "en-us": "en-ca",
+    "en-ca": "en-uk",
+    "en-uk": "en-us"
+  },
+  project_name: "TestApp.Languages"
+}

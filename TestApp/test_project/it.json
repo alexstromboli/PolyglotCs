@@ -1,0 +1,10 @@
+{
+  done: "Finito",
+  new_form:
+  {
+    title: "Nuovo",
+    exit: "Uscita"
+  },
+  days_ago: "giorno||||giorni",
+  only_it: "italiano"
+}
