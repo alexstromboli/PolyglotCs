@@ -214,7 +214,7 @@ namespace Utils.Polyglot
 		// if "xx-yy" is missing, look for "xx"
 		public static T GetForLanguage<T> (this IDictionary<string, T> Dict, string lang, T Default)
 		{
-			return GetForLanguage (Dict, new[] { lang }, Default);
+			return GetForLanguage (Dict, (null == lang) ? null : new[] { lang }, Default);
 		}
 	}
 }
